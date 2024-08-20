@@ -1,10 +1,13 @@
-#Programmierung Menüauswahl
-print ("1: Umrechnung Bar in Pascal")
-print ("2: Meter pro Sekunde in Kilometer pro Stunde")
-print ("3: Kilometer in Meilen")
-print ("4: Grad Celsius in  Grad Fahrenheit")
-print ("5: Zentimeter in Zoll")
-eingabe = input ("Welchen Wert darf ich für dich umrechnen")
+
+while True:
+
+ #Programmierung Menüauswahl
+ print ("1: Umrechnung Bar in Pascal")
+ print ("2: Meter pro Sekunde in Kilometer pro Stunde")
+ print ("3: Kilometer in Meilen")
+ print ("4: Grad Celsius in  Grad Fahrenheit")
+ print ("5: Zentimeter in Zoll")
+ eingabe = input ("Welche Einheit darf ich für dich umrechnen")
 
 if eingabe == '1':
  #Druck (Bar in Pascal)
