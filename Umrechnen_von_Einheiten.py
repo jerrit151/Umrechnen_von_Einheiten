@@ -7,6 +7,7 @@ while True:
     print ("3: Kilometer in Meilen\n")
     print ("4: Grad Celsius in  Grad Fahrenheit\n")
     print ("5: Zentimeter in Zoll\n")
+    print ("6: Abbruch der Umrechnung")
     eingabe = input ("Welche Einheit darf ich für dich umrechnen: ")
     
 
@@ -59,4 +60,7 @@ while True:
         zoll = cm / urf_cm_zoll
         #Ausgabe des Ergebnis
         print("Die Umrechnung von", cm, "Zentimeter in", "Zoll", "ist:", zoll, "Zoll")
-
+     
+    if eingabe == '6':
+        print("Die Umrechnung wird abgebrochen, bitte starten Sie erneut")
+        
