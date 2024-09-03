@@ -64,3 +64,6 @@ while 1==1:
     if eingabe == '6':
         print("Die Umrechnung wird abgebrochen, bitte starten Sie erneut")
         
+    else:
+        print("Werteingabe unzulässig, gebe einen Wert von 1-6 ein")
+        
