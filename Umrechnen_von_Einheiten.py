@@ -22,7 +22,7 @@ while 1==1:
         #Ausgabe des Ergebnis
         print("Die Umrechnung von", bar, "bar in", "pascal", "ist:", pascal, "pascal");
 
-    if eingabe == '2':
+    elif eingabe == '2':
         #Strecke (Meter pro Sekunde in Kilometer pro Stunde)
         #Abfrage welcher Wert umgewandelt werden soll
         m_s = float(input("Gib die Zahl in Meter pro Sekunde ein: "))
@@ -32,7 +32,7 @@ while 1==1:
         #Ausgabe des Ergebnis
         print("Die Umrechnung von", m_s, "meter pro sekunde in", "Kilometer pro Stunde", "ist:", kmh, "Kilometer pro Stunde")
          
-    if eingabe == '3':
+    elif eingabe == '3':
         #Strecke (Kilometer in Meilen)
         #Abfrage welcher Wert umgewandelt werden soll
         km = float(input("Gib die Zahl in Kilometer ein: "))
@@ -42,7 +42,7 @@ while 1==1:
         #Ausgabe des Ergebnis
         print("Die Umrechnung von", km, "Kilometer in", "Meilen", "ist:", mi, "Meilen")
 
-    if eingabe == '4':
+    elif eingabe == '4':
         #Temperatur (Grad Celsius in Fahrenheit)
         #Abfrage welcher Wert umgewandelt werden soll
         tc = float(input("Gib die Zahl in Grad Celsius ein: "))
@@ -52,7 +52,7 @@ while 1==1:
         #Ausgabe des Ergebnis
         print("Die Umrechnung von", tc, "Grad Celsius in", "Grad Fahrenheit", "ist:", tf, "Grad Fahrenheit")
 
-    if eingabe == '5':
+    elif eingabe == '5':
         #Größe (Zentimeter in Zoll)
         #Abfrage welcher Wert umgewandelt werden soll
         cm = float(input("Gib die Zahl in Zentimeter ein: "))
@@ -62,7 +62,7 @@ while 1==1:
         #Ausgabe des Ergebnis
         print("Die Umrechnung von", cm, "Zentimeter in", "Zoll", "ist:", zoll, "Zoll")
      
-    if eingabe == '6':
+    elif eingabe == '6':
         print("Die Umrechnung wird abgebrochen, bitte starten Sie erneut")
         exit()
         
