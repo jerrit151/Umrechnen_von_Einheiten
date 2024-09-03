@@ -45,7 +45,7 @@ while 1==1:
         #Temperatur (Grad Celsius in Fahrenheit)
         #Abfrage welcher Wert umgewandelt werden soll
         tc = float(input("Gib die Zahl in Grad Celsius ein: "))
-        #urf_tc_tf = 1.8 + 32
+        #urf_tc_tf = 1.8 + 32/Umrechenfaktor wurde auskommentiert
         #Rechnung
         tf = (tc * 1.8) + 32
         #Ausgabe des Ergebnis
