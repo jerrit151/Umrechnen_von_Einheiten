@@ -1,5 +1,5 @@
 
-while True:
+while 1==1:
 
     #Programmierung Menüauswahl
     print ("1: Umrechnung Bar in Pascal\n")
