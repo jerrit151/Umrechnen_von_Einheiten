@@ -8,7 +8,7 @@ while 1==1:
     print ("4: Grad Celsius in  Grad Fahrenheit\n")
     print ("5: Zentimeter in Zoll\n")
     print ("6: Abbruch der Umrechnung")
-    print ("Komma Zahlen müssen mit . anstatt , geschrieben werden.")
+    print ("Komma Zahlen müssen mit . anstatt , geschrieben werden.\n")
     eingabe = input ("Welche Einheit darf ich für dich umrechnen: ")
     
 
