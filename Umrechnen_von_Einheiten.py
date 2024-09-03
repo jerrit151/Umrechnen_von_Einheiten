@@ -1,4 +1,4 @@
-
+#Variablen oben definieren & Beschreibung der Variablen
 while 1==1:
 
     #Programmierung Menüauswahl
